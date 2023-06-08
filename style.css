@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    height: 7vh;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    background-color: whitesmoke;
+}
+nav ul  {
+    display: flex;
+   gap: 40px;
+   align-items: end;
+}
+li {
+    list-style-type: none;
+}
+i{
+    color:black
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-family: Helvetica, Arial, sans-serif;
+}
+.second-nav{
+  display: flex;
+  justify-content: center;
+  height: 15vh;
+}
+li > img {
+    width: 50px;
+}
+li > p {
+    font-size: 13px;
+    
+}
+li>a{
+    display: block;
+    font-size: 15px;
+}
+li>a:hover{
+    color: rgb(28, 85, 198);
+}
+.advertisement{
+    display: flex;
+    background-color: whitesmoke;
+    height: 17vh;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.advertisement > p {
+    font-family: SF Pro Display,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-size: 21px;
+}
+span > a {
+    color: rgb(28, 85, 198);
+}
