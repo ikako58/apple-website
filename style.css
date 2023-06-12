@@ -62,3 +62,170 @@ li>a:hover{
 span > a {
     color: rgb(28, 85, 198);
 }
+span > a:hover{
+    text-decoration: underline;
+    color: rgb(0, 107, 194)
+}
+span {
+    color: rgb(28, 85, 198) ;
+}
+.iphone-14 {
+    display: flex;
+    height: 130vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.photo-14{
+    width: 80%;
+}
+.photo-14 > img {
+   width: 100%;
+   justify-content: end;
+   
+}
+.heading-photo{
+    width: 100px;
+    align-items: center;
+}
+h2{
+    font-size: 55px;
+    font-family: SF Pro Display,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+.iphone-14 > p {
+    font-size: 18px;
+    color: gray;
+    font-family: SF Pro Display,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+.i14-price >p{
+    font-size: 22px;
+    font-family:SF Pro Display,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif; 
+}
+
+.btn-14>button {
+    background-color: rgb(71, 118, 238);
+    color: white;
+    border-radius: 15px;
+    font-size: 21px;
+    border: solid 2px rgb(71, 118, 238) ;
+    width: 60px;
+    font-family:SF Pro Display,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif; 
+}
+.i14-btns >a {
+    color: rgb(71, 118, 238);
+}
+.i14-btns >a>span{
+    font-size: 21px;
+    gap: 20px;
+}
+.i14-btns{
+    display: flex;
+    align-items: end;
+    height: 50px;
+    gap: 20px;
+}
+.i14-btns >a>span:hover{
+    text-decoration: underline;
+}
+.btn-14>button:hover{
+    background-color: rgb(88, 140, 237);
+}
+.iphone-14pro{
+    display: flex;
+    background-color: black;
+    height: 110vh;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+}
+.iphone-14pro>.photo-14pro>{
+    width: 100%;
+    height: 60%;
+    
+}
+.iphone-14pro>h2{
+    color: white; 
+}
+.iphone-14pro > img{
+    width: 200px;
+}
+.i14pro-price{
+    color: white;
+    font-family:SF Pro Display,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif; 
+    font-size: 21px;
+}
+.photo-14pro>img{
+    width: 100%;
+    height: 100%;
+}
+.iphone-SE{
+    width: 70%;
+    display: flex;
+    height: 110vh;
+    margin: 0 auto;
+}
+.left-SE{
+    height: 100%;
+    display: flex;
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+.right-SE{
+    display: flex;
+    width: 50%;
+    height: 100%;
+    align-items: start;
+}
+.left-SE>img{
+    width: 80px;
+    height: 30px;
+}
+.i-SE-price{
+    font-family:SF Pro Display,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif; 
+    font-size: 17px;
+}
+.SE-mainheading>h2{
+    color: rgb(0, 107, 194);
+    font-family:SF Pro Display,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-size: 37px;
+}
+.right-SE > img{
+    width: 100%;
+    height: 90%;
+}
+.guided-tour{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-advertisement{
+    width: 80%;
+    height: 95%;
+    border-radius: 30px;
+    background-image: url(images/background-photo-3.jpg);
+    background-position: 100% ;
+    display: flex;
+    justify-content:center;
+    align-items: start;
+    padding-left: 10%;
+    flex-direction: column;
+    font-family:SF Pro Display,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+.main-advertisement>h6{
+    font-size: 20px;
+    color: white;
+}
+.main-advertisement>h2{
+    font-size: 45px;
+    color: white;
+}
+.main-advertisement>a>button{
+    width: 120px;
+    height: 28px;
+    border-radius: 20px;
+    border: 0px;
+}
